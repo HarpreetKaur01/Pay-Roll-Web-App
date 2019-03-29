@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head> 
+		<meta charset="UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "css/styles.css"/>
+        <title>ABC Community College (ABCC) Pay Roll Applicaiton </title>
+    </head>
+	<body>
+            <div id="login_container">
+                
+				<div id="header"> </div>
+			
+				<div id="logoHolder">ABC Community College (ABCC) Pay Roll Applicaiton </div>
+                
+				<div id="formHolder">
+                    
+					<form method="post" action="#"> 
+                        <fieldset>
+					   <div id="formHeader"></div>
+					   
+						<div class="labelHolder"> 
+							<label>Employee Number:</label>
+						</div>
+						<div class="formControl"> 
+							<input type="text"  name="Number" id="eNumber_id" required></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+
+						<div class="labelHolder"> 
+							<label>Employee Name</label>
+						</div>
+						<div class="formControl"> 
+							<input type="text"  name="Name" id="eName_id"></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+
+						<div class="labelHolder"> 
+							<label>Department:</label>
+						</div>
+						<div class="formControl"> 
+							<input type="text"  name="Department" id="eDepartment_id"></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+						
+					    <div class="labelHolder"> 
+							<label>Hours Work</label>
+						</div>
+						<div class="formControl">
+							<input type="text"  name="Hours" id="eHours_id" required></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+						
+						
+						<div class="labelHolder"> 
+							<label>Employee Code <br> <span class="smallerFont"> (L or l for Lecturer  OR R or r for Regualar Empoloyees) </span></label>
+						</div>
+						<div class="formControl"> 
+							<input type="text"  name="Code" id="eCode_id"></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+						
+						<div class="labelHolder"> 
+							<label>Lecturer's Qualification code<br> <span class="smallerFont">(Only enter if the employee is a Lecturer it can be either MASTER or BACHELOR </span></label>
+						</div>
+						<div class="formControl"> 
+							<input type="text"  name="Qual_code" id="eQual_code_id"></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+						
+						<div class="labelHolder"> 
+							<label>Regular  Work Fixed Salary<br> <span class="smallerFont">(Only enter if the employee is a Regular worker</span></label>
+						</div>
+						<div class="formControl"> 
+							<input type="text"  name="RegFixSal" id="eRegFixSal_id"></br>
+						</div>
+						
+						<div class="newLineForm"></div>
+					   					   
+						<div id="buttonHolder"> 
+							<input type="button" value="Generate Salary" id="genSal_id">
+						</div>
+						
+                        </fieldset>
+						
+                    </form>	
+							
+                </div>
+				
+                <div id="footerFix"></div>
+                <div id="footer">
+                        <div id="allRightReserved">
+                            &copy; 2017 by ITEC245 Introduction to Scripting Languages <br/>
+                            COSTAATT <br/>
+                            All rights reserved
+                       </div>
+                </div>
+				
+            </div>
+			<script src="js/processPayRoll.js"> </script>
+	</body>
+</html>

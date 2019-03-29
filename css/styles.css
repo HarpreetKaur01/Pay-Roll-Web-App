@@ -1,0 +1,178 @@
+html, body
+{
+	margin: 0px;
+	border:0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #cccccc; 
+	font-family: verdana;
+	color: #ffffff;
+	text-align:justify;
+}
+#header
+{
+	width:100%;
+	height:50px;
+	border-top:4px solid #c9e0ed;
+	background-image: url('../img/headerBg.gif');
+}
+
+#logoHolder
+{
+    margin:0px auto 20px auto;
+	width:660px;
+	font-family:Impact;
+	font-size:30px;
+	color:#00aef0;
+}
+
+.smallerFont
+{
+	font-size:12px;
+	color:#ff0000;
+}
+#login_container
+{
+	margin:5px auto 0px auto;
+	width: 953px;
+	min-height:97%;
+	position: relative;	
+	border: 2px solid #c9e0ed;
+	background-color: #ffffff;
+	color:#000000;
+
+}
+#formHolder
+{
+	margin:0px auto;
+	width:700px;
+}
+#formHeader
+{
+	float:left;
+	height:20px;
+	width:100%;	
+}
+.newLineForm
+{
+	clear:both;
+	height:25px;
+}
+.newLineSection
+{
+	clear:both;
+	height:25px;
+}
+fieldset
+{
+  border-color:#00aef0; 
+ padding:30px 50px 30px 50px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#loginTitle
+{
+    color:#00aef0;
+    font-size:16px;
+}
+.labelHolder
+{
+	float:left;
+	margin:8px 0px 0px 10px;
+	width:300px;
+	color:#00aef0;
+	font-size:16px;
+}
+.formControl
+{
+	float:left;
+	margin:0px 0px 0px 10px;
+	font-size:16px;
+	color:#00aef0;
+}
+input[type="text"]
+{
+   border: 3px solid #00aef0;
+   width:200px;
+   height:25px;
+}
+#buttonHolder
+{
+	margin:40px auto 0px auto;
+	width:auto;
+}
+input[type="button"]
+{
+	border: 3px solid #00aef0;
+	width:150px;
+	height:40px;
+	font-size:16px;
+	margin:10px 0px 0px 0px;
+
+}
+#outputSection
+{
+	float:left;
+	width:700px;
+	height:60px;
+	color:#00aef0;
+	margin:30px 0px 0px 0px;
+	border-top:1px solid #cccccc;
+	padding:15px 0px 15px 0px;
+	
+}
+.outputHolder
+{
+	float:left;
+	margin:0px 0px 0px 0px;
+	width:175px;
+}
+.outputTitle
+{
+	float:left;
+	width:100%;
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	margin:5px 0px 0px 0px;
+	
+}
+.outputNewLine
+{
+	clear:both;
+	height:0px;
+}
+.outputValue
+{
+	float:left;
+	width:100%;
+	text-align:center;
+	font-size:16px;
+	margin:5px 0px 0px 0px;
+
+}
+#footerFix
+{
+	clear:both;
+	height:78px;
+}
+#footer
+{
+	
+	width:100%;
+	height:78px;
+	position:absolute;
+	bottom:0px;
+    background-image: url('../img/footerBg.jpg');
+        
+}
+#allRightReserved
+{
+
+	margin:10px auto 0px auto;
+	font-size:12px;
+	width:400px;
+	text-align:center;
+}        
+
